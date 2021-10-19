@@ -1,0 +1,78 @@
+body{
+    background: url(fondo.jpg);
+    background-size: 100%;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    width: 1200px;
+    height: 1300px;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+header{
+    width: 1200px;
+    height: 250px;
+    border: 1px solid #000;
+}
+
+h1{
+    background: url(aquarium.crdownload);
+    background-size: 300px;
+    width: 1200px;
+    height: 150px; 
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-style: italic;
+    
+} 
+
+.subt2{
+    text-align: justify;
+    margin: 30px;
+}
+.subt3{
+    text-align: justify;
+    margin: 30px;
+}
+
+.parrafo1 p{
+    text-align: justify;
+    margin: 20px;
+    
+}
+.parrafo11{
+    text-align: justify;
+    margin: 30px;
+}
+
+#categorias{
+    width: 1150px;
+    height: auto; overflow: hidden;
+    border: 1px solid;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.uno{
+    width: 324px;
+    height: 525px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dos{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
