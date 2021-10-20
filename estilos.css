@@ -1,5 +1,5 @@
 body{
-    background: url(fondo.jpg);
+    background: url(imagenes/fondo.jpg);
     background-size: 100%;
 }
 
@@ -21,7 +21,7 @@ header{
 }
 
 h1{
-    background: url(aquarium.crdownload);
+    background: url(imagenes/aquarium.crdownload);
     background-size: 300px;
     width: 1200px;
     height: 150px; 

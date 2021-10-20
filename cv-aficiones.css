@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+.menu a{
+    text-decoration: none;
+    float:left;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    padding:10px;
+    width: 20%;
+    font-size: smaller;
+}
+
+.blue-bg{
+  position: fixed;
+  background: url(imagenes/atardecer.jpg);
+  background-size: cover;
+  color: solid;
+  top: 0;
+  height: 400px;
+  width: 100vw;
+  z-index: -1;
+  overflow-x: hidden;
+}
+.white-bg{
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  min-height: 500px;
+  margin: 200px 0px;
+  width: 100vw;
+  height: 140vh;
+  transform: skewY(5deg);
+  z-index: -1;
+}
+
+.content{
+  position: absolute;
+  top: 0;
+  margin: 250px 10vw;
+  max-width: 60vw;
+  background-color: transparent;
+}   
+
+.content p{
+    margin-top: 15px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.shadow{
+  box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3);
+
+}
+
+img{
+    width: 100%;
+}
+#foto{
+
+    padding: 30px;
+    margin-left: 80px;
+    width: 400px;
+    float: right;
+ }
+
+footer{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    background-color: #333333b4;
+    color:aliceblue;
+    padding-top: 5px;
+}
+#footer{
+    columns: 2; 
+    width: 20%;
+    display: inline-block;
+}
