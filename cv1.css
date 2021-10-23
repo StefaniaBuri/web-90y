@@ -1,0 +1,142 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    background: rgb(56, 2, 17);
+    background-size: 100%;
+    
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 657px;
+   
+}
+.menu a{
+    text-decoration: none;
+    float:left;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    width: 25%;
+    font-size: large;
+	padding: 10px 20px;
+    font-family:monospace;
+    
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+   
+    
+}
+.hijo1{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 600px;
+    margin-right: 10px;
+    margin-left: 200px;
+    font-family:monospace;
+    font-size: 2cm;    
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.hijo2{
+   display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin-right: 50px;
+    margin-left: 200px;
+}
+.hijo22 p{
+    font-family: monospace;
+    text-align: justify;
+    margin: 10px;
+    color: white;
+   
+    font-size:medium;
+}
+.hijo23{
+    text-align: justify;
+    margin: 15px;
+    color: white;
+    font-size:medium;
+    font-family: monospace;
+}
+
+.hijo22 a {
+	border: none;
+	padding: 5px 10px;
+	border-radius: 60px;
+	color: black;
+	background: #fff;
+    margin-left: 10px;
+    font-family: monospace;
+}
+.hijo22 a:hover{
+	cursor: pointer;
+}
+
+h3{
+    font-family: monospace;
+    margin: 10px;
+    color: white;
+}
+
+.hijo3{
+    width: 450px;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    
+}
+.hijo3 section{
+   
+    color: white;
+    font-size: medium;
+    text-align: center;
+    font-family: monospace;
+}
+.container3{
+   
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%; 
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+footer{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    background-color: #333333b4;
+    color:aliceblue;
+    padding-top: 5px;
+}
+#footer{
+    columns: 2; 
+    width: 20%;
+    display: inline-block;
+}
